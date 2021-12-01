@@ -35,3 +35,7 @@ The zip file should be named in format of: ICT1002_C_GP_Team 49.zip.
 ### By 11:30pm, 3 Dec 2021, Friday
 - Peer Evaluation 
 "Complete your peer evaluation on TEAMMATES. Otherwise, the contribution credits will be evenly distributed among the team members."
+
+
+### Demonstration:
+https://youtu.be/7Rm4nXf-bGA
