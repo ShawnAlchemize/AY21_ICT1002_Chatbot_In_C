@@ -3,7 +3,7 @@
 #include <windows.h>
   
 // Function to creating loading bar
-void loadingBar()
+void loading_bar()
 {
     // 0 - black background,
     // A - Green Foreground
@@ -40,6 +40,6 @@ void loadingBar()
 // int main()
 // {
 //     // Function Call
-//     loadingBar();
+//     loading_bar();
 //     return 0;
 // }

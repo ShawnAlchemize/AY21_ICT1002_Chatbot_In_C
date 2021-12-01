@@ -67,7 +67,7 @@ int knowledge_update_where(jarvis_node *new_node);
 int knowledge_update_who(jarvis_node *new_node);
 
 /* Initalise loading bar for the animation, this is for saving function */
-void loadingBar();
+void loading_bar();
 
 /* Chatbot Linked lists, our chatbot named Jarvis. */
 jarvis_node *headptr_what;

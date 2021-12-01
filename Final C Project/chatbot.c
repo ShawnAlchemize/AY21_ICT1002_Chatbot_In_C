@@ -439,7 +439,7 @@ int chatbot_do_save(int inc, char *inv[], char *response, int n)
 		knowledge_write(fp);
 		fclose(fp);
 		// printf("Saving...\n");
-		loadingBar();
+		loading_bar();
 		printf("I have saved the results from the knowledge base to [%s].\n", file_path);
 		if (checker_exit == 1)
 		{
@@ -462,7 +462,7 @@ int chatbot_do_save(int inc, char *inv[], char *response, int n)
 		if (tolower(overwrite[0]) == 'y')
 		{
 			// printf("Saving...\n");
-			loadingBar();
+			loading_bar();
 			fp = fopen(file_path, "w");
 			knowledge_write(fp);
 			fclose(fp);
