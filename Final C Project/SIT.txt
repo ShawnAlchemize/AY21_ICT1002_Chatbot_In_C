@@ -1,0 +1,8 @@
+[what]
+SIT=SIT is a school!
+
+[where]
+SIT=SIT is at @NYP!
+
+[who]
+SIT=SIT is not a person, dummy! It's a school!
