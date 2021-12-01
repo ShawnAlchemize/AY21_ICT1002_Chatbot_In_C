@@ -21,7 +21,7 @@ const char *chatbot_username()
 }
 
 /* This function remove a newline from a string */
-void removeChar(char *str, char charToRemmove)
+void remove_char(char *str, char charToRemmove)
 {
 	int len = strlen(str);
 	int i, j;
@@ -89,14 +89,14 @@ int chatbot_main(int inc, char *inv[], char *response, int n)
 			printf("Name of file to save to: (eg. 'test.txt')\n");
 			fgets(new_filename, 255, stdin);
 			fseek(stdin, 0, SEEK_END);		//to clear the input buffer
-			removeChar(new_filename, '\n'); //remove \n from input
+			remove_char(new_filename, '\n'); //remove \n from input
 			while (strlen(new_filename) == 0)
 			{
 				printf("No filepath detected!\n");
 				// Ask for a file path and save to that file
 				printf("Please enter the filepath to save to: (eg. 'test.txt')\n");
 				fgets(new_filename, 255, stdin);
-				removeChar(new_filename, '\n'); //remove \n from input
+				remove_char(new_filename, '\n'); //remove \n from input
 			}
 			//replace '\0' with '_'
 			int qq = 0;
@@ -143,7 +143,7 @@ int chatbot_main(int inc, char *inv[], char *response, int n)
 			// Ask for a file path and save to that file
 			printf("Please enter the filepath to save to: (eg. 'test.txt')\n");
 			fgets(new_filename, 255, stdin);
-			removeChar(new_filename, '\n'); 
+			remove_char(new_filename, '\n'); 
 			while (strlen(new_filename) == 0)
 			{
 				printf("No filepath detected!\n");
@@ -151,7 +151,7 @@ int chatbot_main(int inc, char *inv[], char *response, int n)
 				printf("Please enter the filepath to save to: (eg. 'test.txt')\n");
 				fgets(new_filename, 255, stdin);
 				//remove \n from input
-				removeChar(new_filename, '\n'); 
+				remove_char(new_filename, '\n'); 
 			}
 			//to clear the input buffer
 			fseek(stdin, 0, SEEK_END); 
