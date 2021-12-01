@@ -39,3 +39,6 @@ The zip file should be named in format of: ICT1002_C_GP_Team 49.zip.
 
 ### Demonstration:
 https://youtu.be/7Rm4nXf-bGA
+
+#### To build the project in Visual Studio Code, in the integrated terminal, enter:
+gcc -o main *.c
